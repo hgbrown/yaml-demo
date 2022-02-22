@@ -1,0 +1,11 @@
+
+
+app:
+  users:
+    path: /Users/hbrown/Desktop/users.json
+
+server:
+  port: 8082
+spring:
+  config:
+    import: classpath:version.properties
